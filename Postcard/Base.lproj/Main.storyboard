@@ -111,6 +111,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rvt-p2-OdW"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wao-SQ-NC1">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="158" width="226" height="21"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uI8-GN-LYb">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -126,6 +135,7 @@
                                 <exclude reference="wEO-21-643"/>
                                 <exclude reference="qBS-rW-dAg"/>
                                 <exclude reference="Ncj-cq-vcv"/>
+                                <exclude reference="wao-SQ-NC1"/>
                                 <exclude reference="uI8-GN-LYb"/>
                             </mask>
                         </variation>
@@ -136,6 +146,7 @@
                                 <include reference="wEO-21-643"/>
                                 <include reference="qBS-rW-dAg"/>
                                 <include reference="Ncj-cq-vcv"/>
+                                <include reference="wao-SQ-NC1"/>
                                 <include reference="uI8-GN-LYb"/>
                             </mask>
                         </variation>
@@ -145,6 +156,7 @@
                         <outlet property="enterNameTextField" destination="Xc5-4Z-KKb" id="4BM-PV-YYA"/>
                         <outlet property="mailButton" destination="Ncj-cq-vcv" id="ImS-rp-7CW"/>
                         <outlet property="messageLabel" destination="qBS-rW-dAg" id="h62-Sh-Db6"/>
+                        <outlet property="nameLabel" destination="wao-SQ-NC1" id="Wy1-KJ-mVK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
